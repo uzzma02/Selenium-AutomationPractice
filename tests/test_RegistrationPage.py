@@ -14,7 +14,7 @@ class TestRegistrationPage(BaseClass):
         time.sleep(5)
 
         auth_page = AuthenticationPage(self.driver)  # Authentication page object
-        auth_page.get_create_email().send_keys("uzzma02@gmail.com")
+        auth_page.get_create_email().send_keys("uzzma03@gmail.com")
         auth_page.get_authentication_page()
         time.sleep(5)
 
